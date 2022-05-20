@@ -54,38 +54,6 @@ span.b {
   border: 1px solid blue;
   background-color: yellow;
 }
-/* .sosyalbutonlar{
-    margin-top: 50px;
-    display: inline-block;
-    position: relative;
-  bottom: 45px;
-    left: 600px;
-    }
-    */
-/* .sosyalbutonlar a  {
-  background:#a1a1a1;
-    text-decoration: none;
-    color: #FFF;
-    width: 5px;
-    height: 5px;
-    display: inline-block;
-    border-radius: 10px;
-    margin-right: 20px;
-    font-size: 30px;
-    overflow: hidden;
-    position: relative;
-    line-height: 60px;
-    text-align: center;
-  }
-    
-.sosyalbutonlar a{  
-  transition: transform 0.4s linear 0s, 
-    border-top-left-radius 0.1s linear 0s, 
-    border-top-right-radius 0.1s linear 0.1s, 
-    border-bottom-right-radius 0.1s linear 0.2s, 
-    border-bottom-left-radius 0.1s linear 0.3s;
-    
-} */
 
 .fa {
   padding: 10px;
