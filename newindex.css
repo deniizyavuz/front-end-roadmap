@@ -104,18 +104,26 @@ body{
 
   .boostraps{
     display: flex;
+    flex-direction: row;
+    align-items: ;
   }
 
   .boostrap{
-    
+    padding: 20px;
+    margin: 20px;
   }
 
   .boostrap1{
     padding-left: 250px;
     width: 340px;
     height: 320px;
+    flex: 1;
   }
 
   .boostrap2{
+    flex: 1;
+  }
 
+  .boostrap3{
+    flex: 1;
   }
