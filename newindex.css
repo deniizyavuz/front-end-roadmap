@@ -63,7 +63,7 @@ body{
     padding: 8px;
     width: 200px;
     background-color: #f1f1f1;
-    position: fixed;
+    position:absolute;
     height: 100%;
     overflow: auto;
   }
@@ -126,3 +126,16 @@ body{
   .boostrap3{
     flex: 1;
   }
+
+  .news{
+}
+
+.new1{
+  border-bottom: 1px solid gray;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    font-weight: 300 !important;
+}
