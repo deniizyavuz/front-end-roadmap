@@ -89,15 +89,33 @@ body{
   } 
 
   .body1{
-    width: 50px;
-    height: 50px;
-    padding-left:100px; 
+    width: 488px;
+    height: 274px;
+    padding-left:250px; 
     padding-right:30px; 
-    padding-top:5px
+    padding-top:10px
   }
 
   .body2{
       text-align: justify;
       padding-right:80px; 
-      padding-left: 240px;
+      padding-left: 200px;
   } 
+
+  .boostraps{
+    display: flex;
+  }
+
+  .boostrap{
+    
+  }
+
+  .boostrap1{
+    padding-left: 250px;
+    width: 340px;
+    height: 320px;
+  }
+
+  .boostrap2{
+
+  }
