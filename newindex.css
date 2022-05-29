@@ -1,8 +1,8 @@
 body{
     font-size: 14;
     font-family: 'Roboto', sans-serif;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 .topnav{
@@ -22,14 +22,13 @@ body{
 }
 
 .fa {
+    display: flex;
     padding: 10px;
     font-size: 2px;
-    width: 4px;
     text-align: center;
     text-decoration: none;
     margin: 4px 2px;
     border-radius: 50%;
-    display: flex;
   }
   
   .fa:hover {
@@ -39,6 +38,7 @@ body{
   .fa-facebook {
     background: #3b5998;
     color: white;
+    margin-left: 400px;
   }
   
   .fa-twitter {
@@ -55,16 +55,21 @@ body{
     background: #125688;
     color: white;
   }
+
+  .fa-location-dot{
+    background: #FFB400;
+    color: #f1f1f1;
+  }
   
   .sidebar {
     display: flex;
     flex-direction: column;
     margin: 7px;
     padding: 8px;
-    width: 200px;
+    min-width: 200px;
     background-color: #f1f1f1;
     position:absolute;
-    height: 100%;
+    min-height: 500px;
     overflow: auto;
   }
   
@@ -105,26 +110,34 @@ body{
   .boostraps{
     display: flex;
     flex-direction: row;
-  }
-
-  .boostrap{
-    padding: 20px;
-    margin: 20px;
+    align-items: stretch;
   }
 
   .boostrap1{
     padding-left: 250px;
-    width: 340px;
-    height: 320px;
+    width: 150px;
     flex: 1;
+    flex-direction: column;
+  }
+
+  .boostrap1 .content{
+    overflow-y: scroll;
+    max-height: calc(100%-48px);
+  }
+
+  .boostrap1 img{
+    width: 100%;
   }
 
   .boostrap2{
     flex: 1;
+    flex-direction: column;
   }
 
   .boostrap3{
     flex: 1;
+    flex-direction: column;
+    padding-right: 200px;
   }
 
   .news{
@@ -149,8 +162,8 @@ body{
 
 .duyurular{
   display: flex;
-  flex-grow: 0;
   flex-direction: row;
+  justify-content: flex-start;
   position: relative;
   box-sizing: border-box;
   height: 200px;
@@ -159,6 +172,8 @@ body{
   margin-left: 240px;
   margin-right: 240px;
   padding-left: 30px;
+  align-items:stretch;
+  line-height: 1.5;
 }
 
 .duyurular1{
@@ -174,10 +189,56 @@ body{
 
 .duyurular2{
   color: #f1f1f1;
-  padding: 25px;
-  justify-content: center;
+  padding-left: 10px;
   margin-top: 0px;
-  margin-left: -200px;
-  padding-top: 5px ;
-  font-size: 14px;
+  margin-left: 10px;
+  font-size: 14px; 
+  text-decoration: none !important;
+  flex: 1;
 }
+
+.duyurular3{
+  color: white;
+  padding-left: 10px;
+  margin-top: 0px;
+  font-size: 14px;
+  flex: 1;
+}
+
+  .footer{
+    background: url('./footerBackground.png.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: 50px;
+    color:#f1f1f1;
+    font-weight: 300;
+    position: relative;
+    height: 400px;
+    width: "100%";
+  }
+
+  .footer1{
+  display: flex;
+  text-align: justify;
+  padding-top: 80px;
+  padding-left: 35px;
+  margin-top: 10px;
+  line-height: 4;
+  }
+
+  .footer2{
+  text-align: justify;
+  padding-left: 35px;
+  }
+
+  .footer3{
+
+  }
+
+  a{
+    color:#f1f1f1;
+    text-decoration: none;
+  }
+
