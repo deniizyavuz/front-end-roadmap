@@ -115,10 +115,18 @@ body{
 
   .boostrap1{
     padding-left: 250px;
-    width: 340px;
-    height: 320px;
+    width: 150px;
     flex: 1;
     flex-direction: column;
+  }
+
+  .boostrap1 .content{
+    overflow-y: scroll;
+    max-height: calc(100%-48px);
+  }
+
+  .boostrap1 img{
+    width: 100%;
   }
 
   .boostrap2{
@@ -165,6 +173,7 @@ body{
   margin-right: 240px;
   padding-left: 30px;
   align-items:stretch;
+  line-height: 1.5;
 }
 
 .duyurular1{
@@ -227,3 +236,9 @@ body{
   .footer3{
 
   }
+
+  a{
+    color:#f1f1f1;
+    text-decoration: none;
+  }
+
