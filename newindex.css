@@ -228,6 +228,10 @@ body{
   line-height: 4;
   }
 
+  .footer1 .fa{
+    margin: 4px 2px;
+  }
+
   .footer2{
   text-align: justify;
   padding-left: 35px;
