@@ -12,10 +12,11 @@
   />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
+
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-  <script src="JS/dosyası/new.js"></script>
+  <script src="js-frontend/sidebar.js"></script>
 
     <div class="topnav">
         <b
@@ -60,6 +61,7 @@
       ></a>
     </div>
     <div class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeBar()">&times;</a>
         <a href="https://www.atilim.edu.tr/tr/ise">Bölüm Tanıtımı</a>
         <a href="https://www.atilim.edu.tr/tr/ise/page/2200/akademik-personel"
           >Personel</a
@@ -87,7 +89,7 @@
         <a href="https://www.atilim.edu.tr/tr/ise/page/3972/iletisim">İletişim</a>
   
       </div>
-
+      <span class="span1" onclick="openBar()">&#9776;</span>
       <div class="bodys">
         <div class="body body1">
           <video controls width="500">
@@ -168,7 +170,7 @@
       </div>
       <div class="news">
         <div class="new1">
-          <b><p>HABERLER</p></b>
+          <b><p>HABERLER</p></b>  
       </div>
         <!-- <article class="new2">
           <p>Tüm Haberler <span class="material-icons">face</span>
