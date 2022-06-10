@@ -28,3 +28,9 @@ backcolor.onclick=function(){
   submit.style.background = 'blue';
 }
     // submit.style.background = 'blue';               //style değiştirme
+
+const colorc=document.getElementsByTagName('a');
+colorc.onclick= function(){
+  a.style.color = 'red'; 
+}
+
