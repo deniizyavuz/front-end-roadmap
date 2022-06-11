@@ -21,6 +21,7 @@ body{
     color: white;
 }
 
+
 .fa {
     display: flex;
     padding: 10px;
@@ -69,6 +70,7 @@ body{
     min-width: 200px;
     background-color: #f1f1f1;
     position:absolute;
+    overflow-x: hidden;
     min-height: 500px;
     overflow: auto;
   }
@@ -78,12 +80,27 @@ body{
     color: black;
     padding: 16px;
     text-decoration: none;
+    transition: 0.3s;
   }
   
-  .sidebar a:hover:not(.active) {
+  .sidebar a:hover {
     background-color: #555;
     color: white;
   }
+
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .span1{
+    font-size:30px;
+    cursor:pointer
+  }
+
   .bodys{
     display: flex;
   }
@@ -98,7 +115,6 @@ body{
     height: 274px;
     padding-left:250px; 
     padding-right:30px; 
-    padding-top:10px
   }
 
   .body2{
@@ -228,13 +244,13 @@ body{
   line-height: 4;
   }
 
+  .footer1 .fa{
+    margin: 4px 2px;
+  }
+
   .footer2{
   text-align: justify;
   padding-left: 35px;
-  }
-
-  .footer3{
-
   }
 
   a{
@@ -242,3 +258,12 @@ body{
     text-decoration: none;
   }
 
+  .footer2 button{
+    color: #FFB400;
+    font-size: 18px;
+    /* background:url('./footerBackground.png.jpeg');   */
+    display: flex;
+    border-style:none;
+    box-sizing: inherit;
+    background: scroll;
+  }
