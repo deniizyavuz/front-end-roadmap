@@ -18,7 +18,11 @@
 <body>
   <script src="js-frontend/sidebar.js"></script>
   <script src="js-frontend/parentnode.js"></script>
-    <div class="topnav">
+  <script src="js-frontend/childnode.js"></script>
+  <script src="js-frontend/createElement.js"></script>
+  <script src="js-frontend/appendChild.js"></script>
+
+    <div class="topnav" id="topnav">
         <b
         ><a href="https://www.atilim.edu.tr/atilim-online/?tr"
           >ATILIM ONLINE</a
@@ -61,7 +65,6 @@
       ></a>
     </div>
     <div class="sidebar">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeBar()">&times;</a>
         <a href="https://www.atilim.edu.tr/tr/ise">Bölüm Tanıtımı</a>
         <a href="https://www.atilim.edu.tr/tr/ise/page/2200/akademik-personel"
           >Personel</a
@@ -89,7 +92,6 @@
         <a href="https://www.atilim.edu.tr/tr/ise/page/3972/iletisim">İletişim</a>
   
       </div>
-      <span class="span1" onclick="openBar()">&#9776;</span>
       <div class="bodys">
         <div class="body body1">
           <video controls width="500">
