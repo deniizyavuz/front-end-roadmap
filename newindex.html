@@ -2,6 +2,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="newindex.css">
+        <link rel="stylesheet" href="login.css">
         <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
@@ -16,11 +17,7 @@
     </head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <body>
-  <script src="js-frontend/sidebar.js"></script>
-  <script src="js-frontend/parentnode.js"></script>
-  <script src="js-frontend/childnode.js"></script>
-  <script src="js-frontend/createElement.js"></script>
-  <script src="js-frontend/appendChild.js"></script>
+ 
 
     <div class="topnav" id="topnav">
         <b
@@ -221,6 +218,34 @@
         <div class="footer2">
         </div>
       </div>
+      <div id="login-modal">
+        <h1> Student Login Form </h1> 
+        <form>  
+            <div class="container" id="my-form">   
+                <label>Username : </label>   
+                <input type="text" placeholder="Enter Username" name="username" required>  
+                <label>Password : </label>   
+                <input type="password" placeholder="Enter Password" name="password" required>  
+                <button type="submit" id="submit">Login</button>   
+                <input type="checkbox" checked="checked" id="check"> Remember me   
+                <button type="button" id="buttons" class="cancelbtn">Close</button>
+                Forgot <a href="#"> password? </a>   
+            </div>   
+        </form>     
+          <ul id="item">
+            <li>
+              İtem1
+            </li>
+            <li>
+              İtem2
+            </li>
+          </ul>      </div>
 
+      <script src="js-frontend/sidebar.js"></script>
+      <script src="js-frontend/parentnode.js"></script>
+      <script src="js-frontend/childnode.js"></script>
+      <script src="js-frontend/createElement.js"></script>
+      <script src="js-frontend/appendChild.js"></script>
+      <script src="js-frontend/loginModal.js"></script>
 </body>
 </html>
