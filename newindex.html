@@ -1,55 +1,39 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="newindex.css">
-        <link rel="stylesheet" href="login.css">
-        <link
+  <head>
+    <link rel="stylesheet" href="newindex.css" />
+    <link rel="stylesheet" href="login.css" />
+    <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-
-
-    </head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-<body>
- 
-
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
     <div class="topnav" id="topnav">
-        <b
-        ><a href="https://www.atilim.edu.tr/atilim-online/?tr"
-          >ATILIM ONLINE</a
-        ></b
+      <a href="https://www.atilim.edu.tr/atilim-online/?tr">ATILIM ONLINE</a>
+      <a href="https://ic.atilim.edu.tr/tr">ULUSLARARASI</a>
+      <a
+        href="https://www.atilim.edu.tr/tr/argeda-teknoloji-transfer-ofisi-direktorlugu"
+        >ARGEDA-TTO</a
       >
-      <b><a href="https://ic.atilim.edu.tr/tr">ULUSLARARASI</a></b>
-      <b
-        ><a
-          href="https://www.atilim.edu.tr/tr/argeda-teknoloji-transfer-ofisi-direktorlugu"
-          >ARGEDA-TTO</a
-        ></b
+      <a href="  https://www.atilim.edu.tr/tr/atusem">SÜREKLİ EĞİTİM</a>
+      <a href="https://www.atilim.edu.tr/tr/ue">UZAKTAN EĞİTİM</a>
+      <a href="https://www.atilim.edu.tr/tr/library">KÜTÜPHANE</a>
+      <a href="https://tourmake.net/tr/tour/1ba4cee675b876335fa20c59e4cb2a93"
+        >360 SANAL TUR</a
       >
-      <b><a href="  https://www.atilim.edu.tr/tr/atusem">SÜREKLİ EĞİTİM</a></b>
-      <b><a href="https://www.atilim.edu.tr/tr/ue">UZAKTAN EĞİTİM</a></b>
-      <b><a href="https://www.atilim.edu.tr/tr/library">KÜTÜPHANE</a></b>
-      <b
-        ><a href="https://tourmake.net/tr/tour/1ba4cee675b876335fa20c59e4cb2a93"
-          >360 SANAL TUR</a
-        ></b
+      <a href="https://www.atilim.edu.tr/tr/home/page/1336/iletisim" id="fetch"
+        >İLETİŞİM</a
       >
-      <b
-        ><a href="https://www.atilim.edu.tr/tr/home/page/1336/iletisim"
-          >İLETİŞİM</a
-        ></b
-      >
-      <b
-      ><a href="login.html"
-        >LOGIN</a
-      ></b
-    >
+      <div id="login-button" class="button-btn">
+        <button type="button" id="login1">LOGIN</button>
+      </div>
+
       <a href="https://www.facebook.com/AtilimUniv/" class="fa fa-facebook"></a>
       <a href="https://twitter.com/atilimuniv" class="fa fa-twitter"></a>
       <a
@@ -61,149 +45,168 @@
         class="fa fa-instagram"
       ></a>
     </div>
-    <div class="sidebar">
-        <a href="https://www.atilim.edu.tr/tr/ise">Bölüm Tanıtımı</a>
-        <a href="https://www.atilim.edu.tr/tr/ise/page/2200/akademik-personel"
-          >Personel</a
-        >
-        <a href="https://www.atilim.edu.tr/tr/ise/page/2198/mufredat"
-          >Lisans Programı</a
-        >
-        <a
-          href="#abouthttps://www.atilim.edu.tr/tr/ise/page/5462/cift-anadal-programlari"
-          >Çift Anadal Programları</a
-        >
-        <a href="https://www.atilim.edu.tr/tr/ise/page/5463/yandal-programi"
-          >Yandal Programları</a
-        >
-        <a
-          href="https://www.atilim.edu.tr/tr/bilisim-sistemleri-muhendisligi-ana-bilim-dali/page/1036/anabilim-dali-baskaninin-mesaji"
-          >Lisansüstü Programlar</a
-        >
-        <a href="https://www.atilim.edu.tr/tr/ise/page/5465/yaz-stajlari"
-          >Öğrenciler İçin</a
-        >
-        <a href="https://www.atilim.edu.tr/tr/ise/page/158/egitim-laboratuvarlari"
-          >Eğitim Laboratuvarları</a
-        >
-        <a href="https://www.atilim.edu.tr/tr/ise/page/3972/iletisim">İletişim</a>
-  
+    <!-- <div id="sidebar-button" class="sidebar-button">
+      <button type="button" id="sidebar-btn"><i class="fa fa-bars"></i></button>
+    </div> -->
+    <div class="sidebar" id="sidebar">
+      <a href="https://www.atilim.edu.tr/tr/ise/page/2200/akademik-personel"
+        >Personel</a
+      >
+      <a href="https://www.atilim.edu.tr/tr/ise/page/2198/mufredat"
+        >Lisans Programı</a
+      >
+      <a
+        href="#abouthttps://www.atilim.edu.tr/tr/ise/page/5462/cift-anadal-programlari"
+        >Çift Anadal Programları</a
+      >
+      <a href="https://www.atilim.edu.tr/tr/ise/page/5463/yandal-programi"
+        >Yandal Programları</a
+      >
+      <a
+        href="https://www.atilim.edu.tr/tr/bilisim-sistemleri-muhendisligi-ana-bilim-dali/page/1036/anabilim-dali-baskaninin-mesaji"
+        >Lisansüstü Programlar</a
+      >
+      <a href="https://www.atilim.edu.tr/tr/ise/page/5465/yaz-stajlari"
+        >Öğrenciler İçin</a
+      >
+      <a href="https://www.atilim.edu.tr/tr/ise/page/158/egitim-laboratuvarlari"
+        >Eğitim Laboratuvarları</a
+      >
+      <a href="https://www.atilim.edu.tr/tr/ise/page/3972/iletisim">İletişim</a>
+    </div>
+    <div class="bodys">
+      <div class="body body1">
+        <video controls width="500">
+          <source
+            src="https://vod-progressive.akamaized.net/exp=1652212426~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F944%2F23%2F579720764%2F2737959605.mp4~hmac=1786ab05199ff9290b0446178e4e9e1d04129724e95081a3824994ec69bbb450/vimeo-prod-skyfire-std-us/01/944/23/579720764/2737959605.mp4"
+            type="video/mp4"
+          />
+        </video>
       </div>
-      <div class="bodys">
-        <div class="body body1">
-          <video controls width="500">
-            <source
-              src="https://vod-progressive.akamaized.net/exp=1652212426~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F944%2F23%2F579720764%2F2737959605.mp4~hmac=1786ab05199ff9290b0446178e4e9e1d04129724e95081a3824994ec69bbb450/vimeo-prod-skyfire-std-us/01/944/23/579720764/2737959605.mp4"
-              type="video/mp4"
-            />
-          </video>
-        </div>
-        <div class="body body2">
-            <h2>Bölüm Tanıtımı</h2>
-            <p>
-                Bilişim Sistemleri, bilginin toplanması, kullanımı, depolanması,
-                dağıtımı, işletilmesi ve yönetilmesi süreçlerini ve bu alanda
-                kullanılan güncel teknolojileri takip eden akademik ve profesyonel
-                bir disiplindir.
-    
-                <br />
-                Bölümümüz, ülkemizin ve dünyanın gelişen ve değişen bilişim
-                teknolojileri gereksinimleri ve beklentilerini karşılayabilecek
-                insan gücünün yetiştirilmesine yönelik öncü ve yenilikçi bir eğitim
-                programı uygulamaktadır. Özellikle, güncel bilişim teknolojileri ile
-                ilgili dersler ön plana çıkmaktadır.
-                <br />
-                Bölümümüz;<br />
-    
-                Bilişim sistemleri tasarımı, geliştirilmesi ve yönetiminde teorik ve
-                pratik sağlam bir temel sahibi,
-                <br />
-                Bilişim sistemleri mühendisliği için faydalı olacak matematik,
-                bilgisayar becerileri, fizik bilgisi ve mühendislik metotları
-                altyapısına sahip,<br />
-                Herhangi bir kurumda ihtiyaç duyulan bilişim teknolojilerini
-                tanımlayarak gerekli bilişim sistemini projelendirebilen,<br />
-                Çok-disiplinli ortamlarda takım çalışması içerisinde ve yüksek
-                iletişim becerileriyle çalışabilen,<br />
-                Profesyonel ve etik sorumluluklarının bilincinde olan ve kendini
-                geliştirebilen, bilişim sistemleri mühendisleri yetiştirmeyi
-                amaçlamaktadır. <br />
-                Bilgi Teknolojileri Yüksek Lisans programımız, ülkemizin gelişen ve
-                değişen bilişim teknolojisi gereksinimleri ve beklentilerini
-                karşılayabilecek insan gücünün yetiştirilmesine yönelik, IBM
-                işbirliği ile hazırlanmış öncü ve yenilikçi bir eğitim programıdır.
-                Bu programın amacına yönelik, BT Hizmet Yönetimi, Bulut Bilişim,
-                Sanallaştırma, Hizmet Odaklı Mimari, İş Süreç Modellemesi, Veri ve
-                Ağ Güvenliği, Ağ Yönetimi, BT Strateji Planlaması ve Yönetişim, BT
-                Ekonomisi, eTicaret gibi güncel teknoloji ve teknoloji eğilimlerinin
-                anlatıldığı dersler yer almaktadır.
-              </p>
-        </div>
-      </div>
-      <div class="boostraps">
-          <div class="boostrap1">
-            <h2>Bölüm Broşürü</h2>
-            <div class="content">
-              <img src="./thumbnail.jpg" alt="">
-            </div>
-          </div>
+      <div class="body body2">
+        <h2>Bölüm Tanıtımı</h2>
+        <p>
+          Bilişim Sistemleri, bilginin toplanması, kullanımı, depolanması,
+          dağıtımı, işletilmesi ve yönetilmesi süreçlerini ve bu alanda
+          kullanılan güncel teknolojileri takip eden akademik ve profesyonel bir
+          disiplindir.
 
-          <div class="boostrap2">
-            <h2>Misyon</h2>
-            <p>
-              Bilişim Sistemleri Mühendisliğinin misyonu, bilgi teknolojilerini
-              kullanarak bilişim sistemleri geliştirebilen ve bilgi
-              teknolojilerini toplumun ihtiyaçları doğrultusunda ve dünya
-              standartlarında bilimsel olarak yönlendirebilen mühendisler
-              yetiştirmektir.
-            </p>
-          </div>
-          <div class="boostrap3">
-          <h2>Vizyon</h2>
-          <p>
-            Bilişim Sistemleri Mühendisliği bölümünün vizyonu, vasıflı bilişim
-            sistemleri mühendisleri yetiştiren ve bu alandaki akademik
-            araştırmalara katkıda bulunan bir bölüm olmaktır.
-          </p>
-          </div>
+          <br />
+          Bölümümüz, ülkemizin ve dünyanın gelişen ve değişen bilişim
+          teknolojileri gereksinimleri ve beklentilerini karşılayabilecek insan
+          gücünün yetiştirilmesine yönelik öncü ve yenilikçi bir eğitim programı
+          uygulamaktadır. Özellikle, güncel bilişim teknolojileri ile ilgili
+          dersler ön plana çıkmaktadır.
+          <br />
+          Bölümümüz;<br />
+
+          Bilişim sistemleri tasarımı, geliştirilmesi ve yönetiminde teorik ve
+          pratik sağlam bir temel sahibi,
+          <br />
+          Bilişim sistemleri mühendisliği için faydalı olacak matematik,
+          bilgisayar becerileri, fizik bilgisi ve mühendislik metotları
+          altyapısına sahip,<br />
+          Herhangi bir kurumda ihtiyaç duyulan bilişim teknolojilerini
+          tanımlayarak gerekli bilişim sistemini projelendirebilen,<br />
+          Çok-disiplinli ortamlarda takım çalışması içerisinde ve yüksek
+          iletişim becerileriyle çalışabilen,<br />
+          Profesyonel ve etik sorumluluklarının bilincinde olan ve kendini
+          geliştirebilen, bilişim sistemleri mühendisleri yetiştirmeyi
+          amaçlamaktadır. <br />
+          Bilgi Teknolojileri Yüksek Lisans programımız, ülkemizin gelişen ve
+          değişen bilişim teknolojisi gereksinimleri ve beklentilerini
+          karşılayabilecek insan gücünün yetiştirilmesine yönelik, IBM işbirliği
+          ile hazırlanmış öncü ve yenilikçi bir eğitim programıdır. Bu programın
+          amacına yönelik, BT Hizmet Yönetimi, Bulut Bilişim, Sanallaştırma,
+          Hizmet Odaklı Mimari, İş Süreç Modellemesi, Veri ve Ağ Güvenliği, Ağ
+          Yönetimi, BT Strateji Planlaması ve Yönetişim, BT Ekonomisi, eTicaret
+          gibi güncel teknoloji ve teknoloji eğilimlerinin anlatıldığı dersler
+          yer almaktadır.
+        </p>
       </div>
-      <div class="news">
-        <div class="new1">
-          <b><p>HABERLER</p></b>  
+    </div>
+    <div class="boostraps">
+      <div class="boostrap1">
+        <h2>Bölüm Broşürü</h2>
+        <div class="content">
+          <img src="./thumbnail.jpg" alt="" />
+        </div>
       </div>
-        <!-- <article class="new2">
+
+      <div class="boostrap2">
+        <h2>Misyon</h2>
+        <p>
+          Bilişim Sistemleri Mühendisliğinin misyonu, bilgi teknolojilerini
+          kullanarak bilişim sistemleri geliştirebilen ve bilgi teknolojilerini
+          toplumun ihtiyaçları doğrultusunda ve dünya standartlarında bilimsel
+          olarak yönlendirebilen mühendisler yetiştirmektir.
+        </p>
+      </div>
+      <div class="boostrap3">
+        <h2>Vizyon</h2>
+        <p>
+          Bilişim Sistemleri Mühendisliği bölümünün vizyonu, vasıflı bilişim
+          sistemleri mühendisleri yetiştiren ve bu alandaki akademik
+          araştırmalara katkıda bulunan bir bölüm olmaktır.
+        </p>
+      </div>
+    </div>
+    <div class="news">
+      <div class="new1">
+        <p>HABERLER</p>
+      </div>
+      <!-- <article class="new2">
           <p>Tüm Haberler <span class="material-icons">face</span>
           </p> -->
-        <!-- </article> -->
-        <div class="new3">
-          <!-- <a href="https://www.atilim.edu.tr/tr/ise/news/4098/atilim-universitesi-milli-uzay-calismalari-kapsaminda-ortaya-koydugu-yerli-urun-ile-odullendirildi-">Atılım Haber</a> -->
+      <!-- </article> -->
+      <div class="new3">
+        <!-- <a href="https://www.atilim.edu.tr/tr/ise/news/4098/atilim-universitesi-milli-uzay-calismalari-kapsaminda-ortaya-koydugu-yerli-urun-ile-odullendirildi-">Atılım Haber</a> -->
         <!-- <img src="https://www.atilim.edu.tr/thumbnail?src=/uploads/news/atilim-universitesi-milli-uzay-calismalari-kapsaminda-ortaya-koydugu-yerli-urun-ile-odullendirildi--1555925974/1556181606-res1.jpg&w=1024&p=widen" alt=""> -->
-        </div>
       </div>
-      <div class="duyurular">
-        <div class="duyurular1">
-          <p>BÖLÜM <br/>
-            DUYURULARI</p>
-        </div>
-        <div  class="duyurular2">
-          <b><p>27.04.2022</b>
-          <br/>
-          <a href="https://www.atilim.edu.tr/tr/ise/announcement/9338/atilim-universitesi-bilisim-sistemleri-muhendisligi-bolumu-arastirma-gorevlisi-alim-komisyonu-on-degerlendirme-tutanagi-13-10-2021">"Atılım Üniversitesi Bilişim Sistemleri <br/> Mühendisliği Bölümü Araştırma Görevlisi Alım <br/> Komisyonu Ön Değerlendirme Tutanağı <br/> 13/10/2021"</a>
-          </p>
-        </div>
-        <div class="duyurular3">
-          <b><p>02.04.2022</b>
-            <br/>
-            <a href="https://www.atilim.edu.tr/tr/ise/announcement/9071/atilim-universitesi-bilisim-sistemleri-muhendisligi-bolumu-arastirma-gorevlisi-alim-komisyonu---son-degerlendirme-tutanagi-09-08-2021">"Atılım Üniversitesi Bilişim Sistemleri <br/> Mühendisliği Bölümü Araştırma Görevlisi Alım <br/> Komisyonu Son Değerlendirme Tutanağı <br/> 09/08/2021"</a>
-          </p>
-        </div>
+    </div>
+    <div class="duyurular">
+      <div class="duyurular1">
+        <p>
+          BÖLÜM <br />
+          DUYURULARI
+        </p>
       </div>
-      <div class="footer">
-        <div class="footer1">
-          <p
-          >Kızılcaşar Mahallesi, İncek / Ankara / Kroki için tıklayınız <br/>
-          +90 (312) 586 80 00  +90 (312) 586 80 90  info@atilim.edu.tr <br/>
-          <a href="https://www.facebook.com/AtilimUniv/" class="fa fa-facebook"></a>
+      <div class="duyurular2">
+        <p>
+          27.04.2022
+          <br />
+          <a
+            href="https://www.atilim.edu.tr/tr/ise/announcement/9338/atilim-universitesi-bilisim-sistemleri-muhendisligi-bolumu-arastirma-gorevlisi-alim-komisyonu-on-degerlendirme-tutanagi-13-10-2021"
+            >"Atılım Üniversitesi Bilişim Sistemleri <br />
+            Mühendisliği Bölümü Araştırma Görevlisi Alım <br />
+            Komisyonu Ön Değerlendirme Tutanağı <br />
+            13/10/2021"</a
+          >
+        </p>
+      </div>
+      <div class="duyurular3">
+        <p>
+          02.04.2022
+          <br />
+          <a
+            href="https://www.atilim.edu.tr/tr/ise/announcement/9071/atilim-universitesi-bilisim-sistemleri-muhendisligi-bolumu-arastirma-gorevlisi-alim-komisyonu---son-degerlendirme-tutanagi-09-08-2021"
+            >"Atılım Üniversitesi Bilişim Sistemleri <br />
+            Mühendisliği Bölümü Araştırma Görevlisi Alım <br />
+            Komisyonu Son Değerlendirme Tutanağı <br />
+            09/08/2021"</a
+          >
+        </p>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer1">
+        <p>
+          Kızılcaşar Mahallesi, İncek / Ankara / Kroki için tıklayınız <br />
+          +90 (312) 586 80 00 +90 (312) 586 80 90 info@atilim.edu.tr <br />
+          <a
+            href="https://www.facebook.com/AtilimUniv/"
+            class="fa fa-facebook"
+          ></a>
           <a href="https://twitter.com/atilimuniv" class="fa fa-twitter"></a>
           <a
             href="https://www.youtube.com/user/atilimuniversitesi"
@@ -212,40 +215,51 @@
           <a
             href="https://www.instagram.com/atilimuniv/"
             class="fa fa-instagram"
-          ></a>         
-         </p>
-        </div>
-        <div class="footer2">
-        </div>
+          ></a>
+        </p>
       </div>
-      <div id="login-modal">
-        <h1> Student Login Form </h1> 
-        <form>  
-            <div class="container" id="my-form">   
-                <label>Username : </label>   
-                <input type="text" placeholder="Enter Username" name="username" required>  
-                <label>Password : </label>   
-                <input type="password" placeholder="Enter Password" name="password" required>  
-                <button type="submit" id="submit">Login</button>   
-                <input type="checkbox" checked="checked" id="check"> Remember me   
-                <button type="button" id="buttons" class="cancelbtn">Close</button>
-                Forgot <a href="#"> password? </a>   
-            </div>   
-        </form>     
+      <div class="footer2"></div>
+    </div>
+    <div id="login-modal" class="login-modal">
+      <div class="container" id="my-form">
+        <form>
+          <h1>Student Login Form</h1>
+          <label>Username : </label>
+          <input
+            type="text"
+            placeholder="Enter Username"
+            name="username"
+            required
+          />
+          <label>Password : </label>
+          <input
+            type="password"
+            placeholder="Enter Password"
+            name="password"
+            required
+          />
+          <button type="submit" id="submit">Login</button>
+          <input type="checkbox" checked="checked" id="check" /> Remember me
+          <button type="button" id="buttons" class="cancelbtn">Close</button>
+          Forgot <a href="#"> password? </a>
           <ul id="item">
-            <li>
-              İtem1
-            </li>
-            <li>
-              İtem2
-            </li>
-          </ul>      </div>
+            <li>İtem1</li>
+            <li>İtem2</li>
+          </ul>
+        </form>
+      </div>
+    </div>
 
-      <script src="js-frontend/sidebar.js"></script>
-      <script src="js-frontend/parentnode.js"></script>
-      <script src="js-frontend/childnode.js"></script>
-      <script src="js-frontend/createElement.js"></script>
-      <script src="js-frontend/appendChild.js"></script>
-      <script src="js-frontend/loginModal.js"></script>
-</body>
+    <script src="js-frontend/sidebar.js"></script>
+    <script src="js-frontend/parentnode.js"></script>
+    <script src="js-frontend/childnode.js"></script>
+    <script src="js-frontend/createElement.js"></script>
+    <script src="js-frontend/appendChild.js"></script>
+    <script src="js-frontend/loginModal.js"></script>
+    <script src="js-frontend/fetch.js"></script>
+    <script src="js-frontend/callback.js"></script>
+    <script src="js-frontend/promise.js"></script>
+    <script src="js-frontend/asyncAwait.js"></script>
+
+  </body>
 </html>

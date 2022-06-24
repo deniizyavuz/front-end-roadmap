@@ -5,17 +5,17 @@
 //   function closeForm() {
 //     document.getElementById("my-form").style.display = "none";
 //   }
-function closeForm(){
-  document.getElementById("my-form").style.display = "none";
-}
-const buton=document.querySelector('.cancelbtn');
-buton.onclick= function() {
-    closeForm();
-    alert("you close the login page");
-}
-function openForm(){
-  document.getElementById("openform").style.display = "block";
-}
+// function closeForm(){
+//   document.getElementById("my-form").style.display = "none";
+// }
+// const buton=document.querySelector('.cancelbtn');
+// buton.onclick= function() {
+//     closeForm();
+//     alert("you close the login page");
+// }
+// function openForm(){
+//   document.getElementById("openform").style.display = "block";
+// }
 
 // const open=document.querySelector('openform');
 // open.onclick=function(){
