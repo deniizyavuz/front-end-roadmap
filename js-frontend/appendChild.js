@@ -5,6 +5,6 @@ function createItem(name){
 }
 
 const sidebar = document.querySelector('.sidebar');
-sidebar.appendChild(createItem('Home'));
-sidebar.appendChild(createItem('Services'));
-sidebar.appendChild(createItem('About Us'));
+// sidebar.appendChild(createItem('Home'));
+// sidebar.appendChild(createItem('Services'));
+// sidebar.appendChild(createItem('About Us'));

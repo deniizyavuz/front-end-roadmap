@@ -1,64 +1,34 @@
-function myDisplayer(some) {
-    document.getElementById("demo").innerHTML = some;
-  }
-  
-  function myCalculator(num1, num2, myCallback) {
-    let sum = num1 + num2;
-    myCallback(sum);
-  }
-  //
-  myCalculator(5, 5, myDisplayer);
-  
-  setTimeout(myFunction, 3000);
+// const todos = [
+//   { title : "Todo 1", description: "deneme todo"},
+//   { title : "Todo 2", description: "deneme todo2"}
+// ];
 
-  function myFunction() {
-    document.getElementById("demo").innerHTML = "I love You !!";
-  }  
+// let todoListElement = document.getElementById("item");
 
-  //
-  setInterval(myFunction, 1000);
+// function todoList() {
+//   setTimeout(() => {
+//     let todoItems = "";
+//     todos.forEach(item => {
+//       todoItems += `
+//         ${item.title}
+//         ${item.description}
+//       `;
+//     });
+//     todoListElement.innerText = todoItems;
+//   },1000);
+// }
 
-function myFunction() {
-  let d = new Date();
-  document.getElementById("demo").innerHTML=
-  d.getHours() + ":" +
-  d.getMinutes() + ":" +
-  d.getSeconds();
-}
+// function newTodo(todo, callback) {
+//   setTimeout(() => {
+//     todos.push(todo);
+//     callback();
+//   }, 2000);
+// }
 
-//
-let myPromise = new Promise(function(myResolve, myReject) {
-    let req = new XMLHttpRequest();
-    req.open('GET', "mycar.htm");
-    req.onload = function() {
-      if (req.status == 200) {
-        myResolve(req.response);
-      } else {
-        myReject("File not Found");
-      }
-    };
-    req.send();
-  });
-  
-  myPromise.then(
-    function(value) {myDisplayer(value);},
-    function(error) {myDisplayer(error);}
-  );
-  //
-  async function myFunction() {
-    return "Hello";
-  }
-  myFunction().then(
-    function(value) {myDisplayer(value);},
-    function(error) {myDisplayer(error);}
-  );
+// newTodo({
+//   title: "Todo 4",
+//   description: "deneme todo4"
 
-//
-async function myDisplay() {
-    let myPromise = new Promise(function(resolve) {
-      resolve("I love You !!");
-    });
-    document.getElementById("demo").innerHTML = await myPromise;
-  }
-  
-  myDisplay();
+// }, todoList);
+
+// todoList();
