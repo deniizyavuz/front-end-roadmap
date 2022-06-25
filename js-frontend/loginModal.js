@@ -34,12 +34,6 @@ class LoginModal {
 const myModal = new LoginModal("x");
 
 
-//alttaki div display none olacak
-//buton ve div eklenecek
-//butona clicklendiğinde üstteki divin classı değişecek, eğer üstteli classa open classı gelmişse alttaki display görünür olacak.
-//alttaki div login popup modal,çerçeve olacaak posiiton fixed olacak, sağdan soldan yukarıdan aşağı ortalanmış olacak.
-
-
 // function a(y,b){
 //   b(y);
 // }

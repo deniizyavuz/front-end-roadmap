@@ -1,32 +1,29 @@
 
-// const SIDEBAR_BUTTON = "#sidebar-button";
-// const SIDEBAR = "#sidebar-open";
+const SIDEBAR_BUTTON = "#btn-toggle-nav";
+const SIDEBAR = "#nav-sidebar";
 
-// class SidebarModal {
-//   constructor(a) {
-//     this.element = document.querySelector(SIDEBAR);
-//     this.sidebarElement = document.querySelector(SIDEBAR_BUTTON);
-//     this.bindListeners();
-//   }
+class SidebarModal {
+  constructor() {
+    this.element = document.querySelector(SIDEBAR);
+    this.sidebarElement = document.querySelector(SIDEBAR_BUTTON);
+    this.bindListeners();
+  }
 
-//   bindListeners() {
-//     this.sidebarElement.addEventListener("click", this.onClick.bind(this));
-//   }
+  bindListeners() {
+    this.sidebarElement.addEventListener("click", this.onClick.bind(this));
+    console.log("deniz");
+  }
 
-//   onClick(){
-//     this.show();
-//   }
+  onClick(){
+    this.show();
+  }
 
-//   closeButtonClick(){
-//     this.hide();
-//   }
-  
+  show() {
+    this.element.classList.add("active");
+  }
 
-//   show() {
-//     this.element.classList.add("active");
-//   }
+  hide() {
+    this.element.classList.remove("active");
+  }
+}
 
-//   hide() {
-//     this.element.classList.remove("active");
-//   }
-// }
