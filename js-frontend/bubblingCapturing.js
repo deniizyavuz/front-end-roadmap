@@ -1,29 +1,29 @@
-// // Bubbling
-// // The bubbling principle is simple.
+// Bubbling
+// The bubbling principle is simple.
 
-// // When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
+// When an event happens on an element, it first runs the handlers on it, then on its parent, then all the way up on other ancestors.
 
-// // Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of them:
+// Let’s say we have 3 nested elements FORM > DIV > P with a handler on each of them:
 
-// // <style>
-// //   body * {
-// //     margin: 10px;
-// //     border: 1px solid blue;
-// //   }
-// // </style>
+// <style>
+//   body * {
+//     margin: 10px;
+//     border: 1px solid blue;
+//   }
+// </style>
 
-// // <form onclick="alert('form')">FORM
-// //   <div onclick="alert('div')">DIV
-// //     <p onclick="alert('p')">P</p>
-// //   </div>
-// // </form>
+// <form onclick="alert('form')">FORM
+//   <div onclick="alert('div')">DIV
+//     <p onclick="alert('p')">P</p>
+//   </div>
+// </form>
 
-// // A click on the inner <p> first runs onclick:
+// A click on the inner <p> first runs onclick:
 
-// // On that <p>.
-// // Then on the outer <div>.
-// // Then on the outer <form>.
-// // And so on upwards till the document object.
+// On that <p>.
+// Then on the outer <div>.
+// Then on the outer <form>.
+// And so on upwards till the document object.
 
 // **************************
 
@@ -42,7 +42,6 @@
 
 // this (=event.currentTarget) is the <form> element, because the handler runs on it.
 // event.target is the actual element inside the form that was clicked.
-
 
 // ***************************
 
