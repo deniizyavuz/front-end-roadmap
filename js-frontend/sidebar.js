@@ -1,4 +1,3 @@
-
 const SIDEBAR_BUTTON = "#btn-toggle-nav";
 const SIDEBAR = "#nav-sidebar";
 
@@ -14,7 +13,7 @@ class SidebarModal {
     console.log("deniz");
   }
 
-  onClick(){
+  onClick() {
     this.show();
   }
 
@@ -27,3 +26,4 @@ class SidebarModal {
   }
 }
 
+const mySidebar = new SidebarModal();
