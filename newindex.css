@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-.nav-main{
+.nav-main {
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,24 +16,24 @@ body {
   z-index: 1000;
 }
 
-.btn-toggle-nav{
+.btn-toggle-nav {
   height: 100%;
   background-color: #f1f1f1;
   cursor: pointer;
   padding: 10px;
 }
 
-.btn-toggle-nav:hover{
+.btn-toggle-nav:hover {
   opacity: 0.5;
 }
 
-.nav-main ul{
+.nav-main ul {
   display: flex;
   flex-wrap: wrap;
   padding-left: 15px;
 }
 
-.nav-main ul li{
+.nav-main ul li {
   list-style: none;
   line-height: 30px;
 }
@@ -50,7 +50,7 @@ body {
   margin: auto;
 }
 
-.nav-main button{
+.nav-main button {
   font-weight: bold;
   display: block;
   cursor: pointer;
@@ -66,34 +66,31 @@ body {
   flex-direction: row;
   flex-wrap: nowrap;
   position: fixed;
+  top: 60px;
   left: 0;
-  width: 50px;
-  height: calc(100vh - 60px);
+  bottom: 0;
+  width: 300px;
   padding: 0 5px;
   background-color: #292c37;
   transform: translateY(-100%);
-  z-index: 1000;
   transition: transform 0.4s ease-in-out;
 }
-
 
 .nav-sidebar.active {
   transform: translateY(0%);
 }
 
-
-.nav-sidebar ul{
+.nav-sidebar ul {
   padding-top: 15px;
   overflow: hidden;
-  visibility: hidden;
 }
 
-.nav-sidebar ul li{
+.nav-sidebar ul li {
   line-height: 60px;
   list-style: none;
 }
 
-.nav-sidebar ul li a{
+.nav-sidebar ul li a {
   display: block;
   height: 60px;
   padding: 0 10px;
@@ -104,10 +101,9 @@ body {
   white-space: nowrap;
 }
 
-.nav-sidebar ul li a:hover{
+.nav-sidebar ul li a:hover {
   background-color: #222;
 }
-
 
 /* .topnav {
   background-color: red;
@@ -212,7 +208,6 @@ body {
   font-size: 36px;
   margin-left: 50px;
 }
-
 
 .span1 {
   font-size: 30px;
