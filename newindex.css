@@ -71,7 +71,6 @@ body {
   bottom: 0;
   width: 300px;
   padding: 0 5px;
-  background-color: #292c37;
   transform: translateY(-100%);
   z-index: 1000;
   transition: transform 0.4s ease-in-out;
